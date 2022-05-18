@@ -43,7 +43,7 @@
             'computer': '2',
         },
     ];
-    let
+    let userWin = false;
     let userChoiceBtns = document.querySelectorAll('.user-choice');
     userChoiceBtns.forEach(btn => {
         btn.addEventListener('click', ()=> {
@@ -53,7 +53,6 @@
             if (usersChoice == computerChoice){
                 console.log('Tie');
             }
-            let findReturn =
         })
     })
 
