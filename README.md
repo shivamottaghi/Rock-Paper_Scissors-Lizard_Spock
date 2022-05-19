@@ -24,3 +24,6 @@
 - [x] add an element to show the winner
 - [x] two elements that shows the scores of each player
   - [x] two var to count each player's score
+## styling
+- [ ] add pictures instead of buttons
+- [ ] change the html structure
