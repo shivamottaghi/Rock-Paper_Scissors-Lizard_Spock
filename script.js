@@ -59,21 +59,15 @@
         btn.addEventListener('click', ()=> {
             let usersChoice = btn.value;
             let computerChoice = Math.floor(Math.random()*5);
-            computerChoiceTag.innerText = rockPaperArr[computerChoice];
+            computerChoiceTag.innerText = 'Computer\'s choice: '+ rockPaperArr[computerChoice];
             //console.log(computerChoice)
             if (usersChoice == computerChoice){
-                console.log(rockPaperArr[computerChoice])
-                console.log('Tie');
                 winnerTag.innerHTML=`Tie`;
             }else {
                 let found = possibilities.find(({user , computer})=> user == usersChoice && computer == computerChoice);
                 if (found == undefined){
-                    console.log(rockPaperArr[computerChoice])
-                    console.log('computer wins')
                     computerScore++;
                 }else {
-                    console.log(rockPaperArr[computerChoice])
-                    console.log('user wins')
                     userScore++;
                     userWin = true;
                 }
