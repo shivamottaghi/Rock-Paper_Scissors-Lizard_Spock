@@ -55,9 +55,11 @@
     computerScoreTag.innerText = `Computer's score : ${computerScore}\/5`;
     let userWin = false;
     let userChoiceBtns = document.querySelectorAll('.user-choice');
+    console.log(userChoiceBtns);
     userChoiceBtns.forEach(btn => {
         btn.addEventListener('click', ()=> {
-            let usersChoice = btn.value;
+            let usersChoice = btn.id;
+            console.log(usersChoice);
             let computerChoice = Math.floor(Math.random()*5);
             computerChoiceTag.innerText = 'Computer\'s choice: '+ rockPaperArr[computerChoice];
             //console.log(computerChoice)
