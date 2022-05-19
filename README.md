@@ -14,12 +14,13 @@
 
 ### What to do ?
 - [x] create index.html , style.css and script.js
-- [x] do some research about how to make this game so you can add your next steps!
+- [x] do some research about how to make this game so that you can add your next steps!
 - [x] add bootstrap to your page
 - [x] buttons so user can choose their move
   - [x] get the value of the chosen btn
-  - [ ] define the winner using that value
+  - [x] define the winner using that value-log into console
 - [x] add an array with all the ways that user wins
-- [ ] add an element to show the winner
-- [ ] two elements that shows the scores of each player
-  - [ ] two var to count each player's score
+- [x] an array to use converting values to the right choice
+- [x] add an element to show the winner
+- [x] two elements that shows the scores of each player
+  - [x] two var to count each player's score
